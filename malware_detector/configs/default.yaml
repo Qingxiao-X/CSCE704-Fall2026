@@ -1,0 +1,8 @@
+# Default configuration for src/train.py
+# Override any value with the matching CLI flag (--seed, --test-size, etc).
+
+train:
+  seed: 42
+  test_size: 0.2       # fraction of (deduplicated) samples held out for validation
+  target_fpr: 0.01      # threshold tuning maximizes TPR subject to FPR < this value
+  backend: null          # null = auto-select lightgbm -> xgboost -> sklearn_hgb -> sklearn_rf
