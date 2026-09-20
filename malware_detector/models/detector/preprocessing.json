@@ -1,0 +1,4 @@
+{
+  "nan_inf_policy": "replaced with 0.0 at extraction time; values clipped to +/-1e12",
+  "scaling": "none (tree ensembles are scale-invariant)"
+}
