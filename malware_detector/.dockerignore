@@ -1,0 +1,6 @@
+*
+!Dockerfile
+!requirements-runtime.txt
+!src/
+!models/detector/
+**/__pycache__
