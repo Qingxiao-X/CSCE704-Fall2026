@@ -1,0 +1,8 @@
+train:
+  seed: 42
+  test_size: 0.2
+  target_fpr: 0.01
+  backend: null
+
+adversarial_training:
+  enabled: true
